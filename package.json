@@ -1,5 +1,5 @@
 {
-  "name": "server-node",
+  "name": "final-project-backend",
   "version": "1.0.0",
   "description": "Basic REST API Server",
   "main": "src/index.js",
