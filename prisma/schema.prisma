@@ -11,8 +11,11 @@ datasource db {
 }
 
 model holaday{
-  holadayId String @id @default(uuid())
-  countryId String 
+  holadayId   String @id @default(uuid())
+  holadayName String
+  countryName String 
+  holadayDate String
+  image       String
 }
 
 
