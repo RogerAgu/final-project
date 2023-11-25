@@ -2,6 +2,7 @@ import { Router } from 'express'
 
 import basicAuth from 'express-basic-auth'
 import employees from './employees'
+import holadays from './holadays'
 
 const router = Router()
 router.use(
@@ -14,5 +15,5 @@ router.get('/', (req, res) => {
 })
 
 router.use('/employees', employees)
-
+router.use('/holadays', holadays)
 export default router
