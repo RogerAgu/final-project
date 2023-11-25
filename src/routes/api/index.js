@@ -13,7 +13,6 @@ router.get('/', (req, res) => {
   res.send({ msg: 'Inside API Endpoints' })
 })
 
-
 router.use('/employees', employees)
 
 export default router
