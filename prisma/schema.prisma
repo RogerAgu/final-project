@@ -10,7 +10,10 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-
+model holaday{
+  holadayId String @id @default(uuid())
+  countryId String 
+}
 
 
 model Employee {
